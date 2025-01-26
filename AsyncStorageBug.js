@@ -1,0 +1,1 @@
+In React Native, when using AsyncStorage to store data, a common error is forgetting to handle the `catch` block properly.  If an error occurs during `setItem` or `getItem`, the app might crash silently or behave unexpectedly.  Another uncommon error is related to improper data serialization and deserialization, leading to data corruption or parsing errors.
